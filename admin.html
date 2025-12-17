@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Painel Administrativo - Igreja</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+
+<h2>Painel Administrativo</h2>
+<p>Atualize eventos, avisos e informações de ofertas.</p>
+
+<hr>
+
+<h3>📅 Agenda de Eventos</h3>
+<textarea id="eventos" rows="6"></textarea>
+<button onclick="salvarEventos()">Salvar Eventos</button>
+
+<hr>
+
+<h3>📢 Avisos da Igreja</h3>
+<textarea id="avisos" rows="6"></textarea>
+<button onclick="salvarAvisos()">Salvar Avisos</button>
+
+<hr>
+
+<h3>💝 Ofertas & Dízimos</h3>
+<textarea id="ofertas" rows="6"></textarea>
+<button onclick="salvarOfertas()">Salvar Ofertas</button>
+
+<script src="dados.js"></script>
+<script src="admin.js"></script>
+
+</body>
+</html>
