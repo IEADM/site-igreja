@@ -1,16 +1,16 @@
 let dados = {
     eventos: localStorage.getItem("eventos") || `
-Campanha de Oração - 01 a 07 de Abril - 19:30
-Vigília - 15 de Abril - 22:00
-Congresso de Jovens - 28 e 29 de Abril - 19:00
+Janeiro Profetico - 02 a 07 de Janeiro
+Manancial Run - 08 de Fevereiro ás 06hrs
 `,
     avisos: localStorage.getItem("avisos") || `
-Escola Bíblica todos os domingos às 9h
-Ensaio do louvor às sextas às 19h
-Reunião de obreiros mensal
+Oração Obreiros/Pastores ás Terças-feiras ás 05hrs
+Oração das mulheres ás Quarta-feiras ás 15hrs
+
 `,
     ofertas: localStorage.getItem("ofertas") || `
-PIX: pix@igreja.com
+PIX: 20.747.936/0001-98
 Banco: 000 | Agência: 0000 | Conta: 00000-0
 `
 };
+
